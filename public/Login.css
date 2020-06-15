@@ -1,0 +1,110 @@
+body{
+  background: url("background/1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: sans-serif;
+}
+.box{
+  width: 400px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.box2{
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+}
+.box h1{
+  color: black;
+  text-transform: uppercase;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  position: center;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #c8eefb;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #c8eefb;
+  padding: 14px 40px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "reset"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #c8eefb;
+  padding: 14px 40px;
+  outline: none;
+  color: grey;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #c8eefb;
+}
+#up{
+  color: white;
+  font-size: 19px;
+  font-family: arial;
+}
+.box input[type = "reset"]:hover{
+  background: #c8eefb;
+}
+.box input[type = "email"],.box input[type = "email"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "email"]:focus,.box input[type = "email"]:focus{
+  width: 280px;
+  border-color: #c8eefb;
+}
